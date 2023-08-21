@@ -5,3 +5,4 @@
     * AddFirst , AddLast, and Insert
     * Display and Get Size Methods are Implemented
 --> Day 2: Added Remove Features in Linked List
+--> Added Double Linked List
