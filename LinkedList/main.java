@@ -1,14 +1,13 @@
 class Main {
     public  static void main(String args[]) {
-        LinkedList list = new LinkedList();
+        PractiseLL list = new PractiseLL();
         list.addFirst(10);
         list.addFirst(40);
         list.addFirst(30);
         list.addLast(20);
-        list.insert(77, 2);   
         list.display();
-        list.remove(3);
-        list.display();
+        list.insertRec(77, 0); 
+        list.display();  
         System.out.println(list.size());
     } 
 }

@@ -1,9 +1,9 @@
 public class LinkedList {
 
     // Variables
-    private Node head;
+    protected Node head;
     private Node tail;
-    private int size;
+    protected int size;
 
     // Constructor
     public LinkedList() {
@@ -128,9 +128,9 @@ public class LinkedList {
     }
 
     // Node for the LinkedList
-    private class Node {
+    class Node {
         private int value;
-        private Node next;
+        Node next;
 
         public Node(int value) {
             this.value = value;
