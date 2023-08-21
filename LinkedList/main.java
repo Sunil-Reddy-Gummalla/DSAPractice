@@ -7,6 +7,8 @@ class Main {
         list.addLast(20);
         list.insert(77, 2);   
         list.display();
+        list.remove(3);
+        list.display();
         System.out.println(list.size());
     } 
 }
